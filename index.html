@@ -3,15 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project-Name</title>
+    <title>Rotating Navigation</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
   </head>
   <body>
     <div class="container">
-      <div class="image" style="background-image: src()">
-        <h3></h3>
-      </div>
+      <article>
+        <h1>Awesome article</h1>
+        <small>Ashraf Atef</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorum atque ex alias labore. Totam, placeat qui recusandae eligendi neque, incidunt cupiditate molestiae iste corrupti, ullam modi magni ipsum ducimus?</p>
+        <h3>My dog</h3>
+        <img src="./dog.webp" alt="dog">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa consectetur sed voluptatem fugiat explicabo facilis maiores laudantium ex expedita quo eaque qui similique harum labore praesentium, molestiae cupiditate vero. Hic accusamus, odio repudiandae optio, similique sint aperiam fuga iste repellendus adipisci, dicta asperiores placeat quisquam consequuntur ipsam minus architecto?</p>
+      </article>
     </div>
-    <script src="main.js"></script>
-  </body>
+  </div>
+  <nav>
+    <div class="nav-circle">
+      <button class="open"><i class="fas fa-bars"></i></button>
+      <button class="close"><i class="fas fa-times"></i></button>
+    </div>
+    <ul>
+    <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+    <li><i class="fas fa-user-alt"></i><a href="#">About</a></li>
+    <li><i class="fas fa-envelope"></i><a href="#">Contact</a></li>
+  </ul>
+  </nav>
+  <script src="main.js"></script>
+</body>
 </html>
